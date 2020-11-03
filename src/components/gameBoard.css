@@ -1,0 +1,27 @@
+  
+.fila {
+    height: 8rem;
+    width: 26rem;
+}
+p {
+    font-size: 2rem;
+}
+.x::after{
+    content: "X";
+    font-size: 6rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.o::after{
+    content: "O";
+    font-size: 6rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#winner{
+    background-color: #F2F3F4;
+    margin-bottom: 15px;
+}
